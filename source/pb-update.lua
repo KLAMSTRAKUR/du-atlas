@@ -35,7 +35,7 @@ if #output > 0 then
     end    
 end
 
-local pos = unit.getMasterPlayerPosition()
+local pos = unit.player.getPosition(
 if vec3(pos):len() > shutoff_distance then
     unit.exit()
 end
