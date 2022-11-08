@@ -19,7 +19,7 @@ end
 
 
 
-unit.hide()
+unit.hideWidget()
 system.createWidgetPanel('DU-Atlas v1.2')
 
 
